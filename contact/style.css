@@ -211,3 +211,7 @@ footer{
     width: 30px;
     height: 30px;
 }
+
+section{
+    max-width: 100%;
+}

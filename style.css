@@ -170,7 +170,6 @@ nav ul li{
 
 .card{
     width: 22%;
-    height: 45vh;
     border: .1rem solid rgb(224, 224, 224);
     display: flex;
     align-items: center;
@@ -359,7 +358,7 @@ footer{
 
 .box-f{
     width: 25%;
-    height: 250px;
+    align-self: flex-start;
 }
 
 .top{
@@ -414,7 +413,18 @@ footer{
     height: 30px;
 }
 
-
+@media  only screen and (max-width:991px) {  
+    .border-card{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .card img{
+        width: 75px;
+        height: 75px;
+    }
+    
+}
 
 
 
